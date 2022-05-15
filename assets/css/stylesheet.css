@@ -9,27 +9,42 @@ body {
     border-radius: 5px;
 }
 
+/* Game Title */
 h1 {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Controls and paragraph elements */
 p {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Styles for the Main Page */
 #start {
     margin: 100px auto 0 auto;
     max-width: 700px;
     text-align: center;
 }
 
+/* Styles for the Questions and Answers */
 #question-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 30%;
 }
 
+button:hover {
+    background-color: darkcyan;
+}
+
+/* Styles the highscores link*/
 .highScores {
     position: absolute;
     font-size: 30px;
@@ -39,6 +54,7 @@ p {
     left: 10px;
 }
 
+/* styles the Timer */
 .timer {
     position: absolute;
     font-size: 30px;
@@ -48,6 +64,7 @@ p {
     right: 10px;
 }
 
+/* Styles buttons throughout the game-may need to change this into two different kinds of buttons? */
 button {
 
     margin: 5px;
